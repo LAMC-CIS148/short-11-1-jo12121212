@@ -16,6 +16,7 @@ body {
 }
 a:focus, a:hover {
 	font-style: italic;
+	background-image: url(images/sorkin_desk260.jpg):
 }
 /* the styles for the header */
 header {
