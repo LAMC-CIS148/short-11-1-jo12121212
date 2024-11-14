@@ -16,9 +16,11 @@ body {
 }
 a:focus, a:hover {
 	font-style: italic;
-	background-image: url(images/sorkin_desk260.jpg):
 
 }
+
+div:hover { background:url('town_hall/images/sorkin_desk260.jpg') no-repeat; }
+
 p {
 	height: 260px;
 	width: 260px;
