@@ -19,7 +19,7 @@ a:focus, a:hover {
 
 }
 
-div:hover { background:url('town_hall/images/sorkin_desk260.jpg') no-repeat; }
+div:hover { background:url('images/sorkin_desk260.jpg') no-repeat; }
 
 p {
 	height: 260px;
