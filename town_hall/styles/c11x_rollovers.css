@@ -16,14 +16,16 @@ body {
 }
 a:focus, a:hover {
 	font-style: italic;
-
 }
 
-div:hover { background:url('images/sorkin_desk260.jpg') no-repeat; }
+div:hover { 
+    background: url('images/sorkin_desk260.jpg') no-repeat; 
+}
 
 p {
 	height: 260px;
 	width: 260px;
+	background-repeat: no-repeat;
 }
 /* the styles for the header */
 header {
@@ -106,10 +108,15 @@ aside img {
 footer {
 	background-color: #931420;
 	clear: both;
-
 }
+
 footer p {
 	text-align: center;
 	color: white;
 	padding: 1em 0;
+}
+
+/* Hover effect for the sampson_dinosaur.jpg */
+.image-hover:hover {
+    content: url('../images/sorkin_desk260.jpg');
 }
